@@ -1,13 +1,13 @@
 //
-//  IOSTemplateAppUITests.swift
-//  IOSTemplateAppUITests
+//  YouTubeWidgetAppUITests.swift
+//  YouTubeWidgetAppUITests
 //
 //  Created by 村石 拓海 on 2024/05/12.
 //
 
 import XCTest
 
-final class IOSTemplateAppUITests: XCTestCase {
+final class YouTubeWidgetAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
