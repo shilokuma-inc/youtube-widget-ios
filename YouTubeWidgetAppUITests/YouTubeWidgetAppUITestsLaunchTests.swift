@@ -1,13 +1,13 @@
 //
-//  IOSTemplateAppUITestsLaunchTests.swift
-//  IOSTemplateAppUITests
+//  YouTubeWidgetAppUITestsLaunchTests.swift
+//  YouTubeWidgetAppUITests
 //
 //  Created by 村石 拓海 on 2024/05/12.
 //
 
 import XCTest
 
-final class IOSTemplateAppUITestsLaunchTests: XCTestCase {
+final class YouTubeWidgetAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
