@@ -26,7 +26,7 @@ YouTube の情報をホーム画面のウィジェットに表示する iOS ア�
 ## CI
 
 GitHub Actions（`.github/workflows/`）。`develop` / `main` 以外のブランチへの push で Build と Archive が走る（`epic/**` と作業ブランチも対象）。
-`develop` / `main` への push では Build・Archive・Release が走る。
+`develop` への push では Build・Archive・Upload が走る。`main` への push では Build だけが走る（Release の Archive を確かめたいときは `archive-main.yml` を手動で実行する）。
 
 ## ブランチ運用
 
