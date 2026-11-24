@@ -2,7 +2,7 @@ name: Upload
 
 # develop への push で Archive → App Store Connect へアップロードする。
 # main への push では Build（build-main.yml）だけを動かすため、自動では上げない。
-# epic ブランチなどの作業ブランチを TestFlight で確認したいときは、手動実行（workflow_dispatch）でそのブランチを選ぶ
+# AskHub の作業ブランチ（askhub/**）などを TestFlight で確認したいときは、手動実行（workflow_dispatch）でそのブランチを選ぶ
 # （AskHub の「マージ待ち」からもこのワークフローを起動する。ファイル名 upload.yml は AskHub との取り決め）。
 # 作業ブランチの push ごとに上げると App Store Connect の 1 日あたりのアップロード上限に当たるため、自動では上げない。
 
