@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "project": "YouTubeWidgetApp.xcodeproj",
+  "scheme": "YouTubeWidgetApp",
+  "platforms": ["iOS"],
+  "uiTests": "YouTubeWidgetAppUITests",
+  "swiftlint": false,
+  "unmanaged": [".swiftlint.yml"]
+}
